@@ -1,6 +1,6 @@
-# Tokenising a DNS
+# Setting up a DNS
 
-How to tokenise your DNS domain (i.e. www.community.com) so it can act as an ENS domain and issue subdomains (i.e. alex.community.com) 
+How to set-up and tokenise your DNS domain (i.e. www.community.com) so it can act as an ENS domain and issue subdomains (i.e. alex.community.com) 
 
 
 ## Steps
