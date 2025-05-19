@@ -1,6 +1,6 @@
-# Add-DNS-to-Unicorn
+# Tokenising a DNS
 
-How to link your DNS domain (i.e. www.community.com) to your Unicorn community.
+How to tokenise your DNS domain (i.e. www.community.com) so it can act as an ENS domain and issue subdomains (i.e. alex.community.com) 
 
 
 ## Steps
@@ -27,7 +27,7 @@ You may need to wait until DNSSEC is marked as enabled -  usually it takes no lo
 
 Navigate to your registrar or hosting provider's management interface and press “Add Record”.
 
-a. Add a TXT-record to prove ownership of your domain name: 
+Add a TXT-record to prove ownership of your domain name: 
 Type: TXT
 Name/Record: _ens
 Value: a=your wallet address (i.e. a=0xae5D0....768A4)
@@ -36,10 +36,6 @@ Alternatively you can copy the record Type, Name, and Value from the ENS App (as
 
 ![image](https://github.com/user-attachments/assets/074ba677-b90d-4c31-999f-0ba42fdf45d2)
 
-b. Then, add a CNAME-record to deploy your Unicorn app to your domain:
-Type: CNAME
-Name/Record: app
-Value: saas.unicorn-account.com
 
 
 ### 4. Claim your Domain in the ENS App
@@ -49,7 +45,3 @@ Go back to the ENS Manager App and claim your now tokenised domain by pressing R
 Usually it takes no longer that 15 mins for records to update but it can take up to an hour.
 
 ![image](https://github.com/user-attachments/assets/bd9191fb-551d-4084-ba07-94973cdf8c68)
-
-### 5. Li﻿nking your Domain to your Unicorn community
-
-When steps 1-4 have been completed reach out to the Unicorn to link the webapp to your domain.
