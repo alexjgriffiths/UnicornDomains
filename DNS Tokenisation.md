@@ -11,7 +11,7 @@ Open your registrar or hosting provider page and enable DNSSEC for your chose do
 
 ### 2. Find your Domain in the ENS Manager
 
-a. a. Open the ENS Manager App, connect your wallet, search for your DNS domain name and click on it to continue. You’ll see a page like the one below.
+a. Open the ENS Manager App, connect your wallet, search for your DNS domain name and click on it to continue. You’ll see a page like the one below.
 
 ![image](https://github.com/user-attachments/assets/8d41660d-2896-4ea4-b2ac-6a91c2046a54)
 
@@ -45,3 +45,12 @@ Go back to the ENS Manager App and claim your now tokenised domain by pressing R
 Usually it takes no longer that 15 mins for records to update but it can take up to an hour.
 
 ![image](https://github.com/user-attachments/assets/bd9191fb-551d-4084-ba07-94973cdf8c68)
+
+### 5. Update Resolver in the ENS App
+
+In the ENS App, go to your domain and click on the "More" tab. At the bottom you'll find the Resolver, click Edit.
+
+Update the Resolver address to: 0xF12d6Aa997F7c9Fc2E8968A19623211e8C8C1bF4
+
+![ENS Screenie](https://github.com/user-attachments/assets/9de8f8e9-2d4f-4e08-bb85-f8b8bc0df163)
+
