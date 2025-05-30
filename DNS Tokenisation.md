@@ -1,4 +1,4 @@
-# Setting up a DNS
+# Tokenising a DNS
 
 How to set-up and tokenise your DNS domain (i.e. www.community.com) so it can act as an ENS domain and issue subdomains (i.e. alex.community.com) 
 
